@@ -19,4 +19,4 @@ jobs:
       - name: check black
         run: python -m black . --check
       - name: check isort
-        run: python -m isort . --check
+        run: python -m isort --profile black . --check
