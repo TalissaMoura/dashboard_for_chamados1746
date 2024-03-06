@@ -7,8 +7,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from src.data import (load_daily_data_chamados,
-                      load_last_seven_days_data_chamados)
+from src.data import load_daily_data_chamados, load_last_seven_days_data_chamados
 from src.plot import bar_plot
 
 PROJ_ID = st.secrets["ENV"]["project_id"]
