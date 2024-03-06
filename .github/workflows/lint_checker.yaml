@@ -1,0 +1,16 @@
+name: lint-checker-python
+run-name: apply-lint-checker
+on:
+  branches:
+    - main
+jobs:
+  make-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-python@main
+        with:
+          python-version: '3.10'
+      - run: python -m pip install pip 
+             python -m pip install black
+      - run: python -m black .
