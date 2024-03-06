@@ -1,8 +1,9 @@
 name: lint-checker-python
 run-name: apply-lint-checker
 on:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 jobs:
   make-lint:
     runs-on: ubuntu-latest
