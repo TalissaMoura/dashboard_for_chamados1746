@@ -3,7 +3,7 @@
 Esse repo contém o código para o dashboard com o balanço diário dos chamados 1746 no Rio de Janeiro. A ideia desse trabalho é mostrar uma visão
 geral da quantidade de chamados que existiu em um dia e quantos foram atendidos, qual foi os tipos de chamados mais abertos e os bairros com mais ocorrências. Você pode visualizar o projeto nesse [link](https://dashboardforchamados1746rj.streamlit.app/).
 
-
+![teste](./images/dash_video.mp4)
 
 
 ## Como o projeto está organizado
